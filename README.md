@@ -1,5 +1,5 @@
 # 1A2B_demo  
-Aim: 1A2B Guessing Game  
+Aim: 1A2B Guessing Game  [投影片連結](https://hackmd.io/hDHtb8s6T6WolCD289jaCQ?both)
 
 規則:
 --
@@ -18,3 +18,5 @@ Input: 9487`2A0B`
 2. 變數 variable 數值與字串 (RandomAns.py)
 3. for 迴圈 與 if else 判斷式 (UserInput.py)
 4. 自訂函數 def  (ComapreAB.py)
+
+
