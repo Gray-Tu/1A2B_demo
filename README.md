@@ -15,7 +15,7 @@ Input: 9487`2A0B`
 課程規劃
 --
 1. 簡介與環境安裝 [投影片連結](https://hackmd.io/p/rk1m3aJcM#/) (HelloWorld.py)  
-2. 變數 variable 數值與字串 (RandomAns.py)
+2. 變數 variable 數值與字串 [投影片連結](https://hackmd.io/p/B1blMuMcz#/) (RandomAns.py)
 3. for 迴圈 與 if else 判斷式 (UserInput.py)
 4. 自訂函數 def  (ComapreAB.py)
 
