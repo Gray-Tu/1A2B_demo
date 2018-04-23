@@ -1,5 +1,5 @@
 # 1A2B_demo  
-Aim: 1A2B Guessing Game  [投影片連結](https://hackmd.io/hDHtb8s6T6WolCD289jaCQ?both)
+Aim: 1A2B Guessing Game  [投影片連結](https://hackmd.io/p/ByAodTk9f#/)
 
 規則:
 --
