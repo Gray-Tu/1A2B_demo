@@ -2,8 +2,8 @@
 #-*- coding: utf-8 -*-
 #1A2B
 #   author: Gray
-#   version: 1.0
-#   date: 20180227
+#   version: 1.1
+#   date: 20180511
 '''
     規則
     輸入錯誤則提供提示
@@ -18,7 +18,7 @@ def getAns():
     """
         產生一組隨機，且不重複的四個數字
     """
-    oriList = list('01234456789')
+    oriList = list('0123456789')
     random.shuffle(oriList)
     AnsList = oriList[:4]
     return AnsList
