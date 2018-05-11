@@ -1,5 +1,5 @@
 
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 #1A2B
 #   author: Gray
 #   version: 1.1
@@ -35,7 +35,7 @@ def is_number(string_A):
         pass
         
     try:
-        import unicodedata
+        # unicodedata
         unicodedata.numeric(string_A)
         return True
     except (TypeError, ValueError):
