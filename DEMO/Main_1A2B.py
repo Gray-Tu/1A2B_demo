@@ -1,9 +1,9 @@
 
-# -*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 #1A2B
 #   author: Gray
 #   version: 1.1
-#   date: 20180511
+#   date: 20180525
 '''
     規則
     輸入錯誤則提供提示
@@ -35,7 +35,7 @@ def is_number(string_A):
         pass
         
     try:
-        # unicodedata
+        import unicodedata
         unicodedata.numeric(string_A)
         return True
     except (TypeError, ValueError):
@@ -111,22 +111,32 @@ def AnsCompare(A_list, B_list):
     #回傳 nAmB
     return "{0}A{1}B".format(right_site, right_number - right_site)
     
-    
+def Life():
+    try:
+        K = int(input("你要幾條命?"))
+        return K
+    except:
+        print("給數字好嗎")
+        return Life()
+        
 if __name__ == "__main__":
     randAns = getAns()  #亂數產生答案 #list
+    
+    K = Life()
     
     #對輸入進行檢查與轉換
     UserInput = InputCheck() #list      
     #print(randAns, UserInput)
     
-    K = 5
+    
+    
     while(K):
         K -= 1
         if randAns == UserInput:
             print("恭喜答對："+" ".join(randAns))
         else:
             
-            print(AnsCompare(UserInput,randAns),"剩餘次數: {0}".format(K+1))
+            print(AnsCompare(UserInput,randAns),"剩餘生命數: {0}".format(K+1))
             UserInput = InputCheck()
     
     if randAns == UserInput:
