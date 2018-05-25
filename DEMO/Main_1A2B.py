@@ -1,4 +1,3 @@
-
 #-*- coding: utf-8 -*-
 #1A2B
 #   author: Gray
@@ -10,7 +9,7 @@
         nA: 有 n 個數字存在答案中並同時位置正確。
         mB: 有 m 個數字存在答案中但位置錯誤。
 '''
-
+import sys
 import random
 import unicodedata
 
@@ -134,6 +133,7 @@ if __name__ == "__main__":
         K -= 1
         if randAns == UserInput:
             print("恭喜答對："+" ".join(randAns))
+            sys.exit()
         else:
             
             print(AnsCompare(UserInput,randAns),"剩餘生命數: {0}".format(K+1))
