@@ -17,6 +17,7 @@ Input: 9487`2A0B`
 1. 簡介與環境安裝 [投影片連結](https://hackmd.io/p/rk1m3aJcM#/) (HelloWorld.py)  
 2. 變數 變數 variable 字串 str 與 List [投影片連結](https://hackmd.io/p/B1blMuMcz#/) (RandomAns.py)
 3. for 迴圈 與 if else 判斷式 [投影片連結](https://hackmd.io/p/H1nJKTr2f#/) (UserInput.py)
-4. 自訂函數 def  (ComapreAB.py)
+4. 產生 2A1B [投影片連結](https://hackmd.io/p/rJx3-Xhym#/) (nAmBFunct.py)
+5. 自訂函數 def [投影片連結](https://hackmd.io/p/HJIgG7TJX#/) (Main_1A2B.py)
 
 
